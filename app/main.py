@@ -1,7 +1,7 @@
 from fastapi import FastAPI, Request
 
-from constants import SUCCESS_DATA_FETCH_MESSAGE, GET_API_RESPONSE_DATA
-from responses import SuccessResponse
+from app.constants import GET_API_RESPONSE_DATA, SUCCESS_DATA_FETCH_MESSAGE
+from app.responses import SuccessResponse
 
 app = FastAPI()
 

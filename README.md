@@ -38,7 +38,7 @@ To run the FastAPI application locally without Docker:
 To run the FastAPI application using Docker:
 
 1. Make sure Docker is installed on your system.
-2. Build the Docker image by running `docker build -t fastapi-docker .` from the project root directory.
+2. Build the Docker image by running `docker build -t fastapi-docker -f docker/Dockerfile .` from the project root directory.
 3. Run a Docker container using the built image with a command like `docker run -p 8000:8000 fastapi-docker`.
 4. Access the API at `http://localhost:8000/` in your web browser or API client.
 
